@@ -1,0 +1,19 @@
+# Environments
+.env
+.venv/
+venv/
+env/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Outputs
+whisper-small-marathi/
+metrics_history.json
+training_metrics.png
+
+# Huggingface/Wandb local files
+wandb/
+*.safetensors
